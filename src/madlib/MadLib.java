@@ -41,8 +41,9 @@ public class MadLib {
 		System.out.print("Enter a verb: ");
 		String verb = sc.nextLine();
 
-		System.out.println("You go to a " + noun + " and see " + adjective + " " + nounPlural + ". ");
-		System.out.println("You decide to " + verb + " them... ");
+		System.out.println("I've got to " + verb + " not to worry... ");
+		System.out.println(
+				"Thankfully, it was only looking for its " + noun + " and see " + adjective + " " + nounPlural + ". ");
 	}
 
 	public static void longStoryMethod() {
@@ -61,10 +62,11 @@ public class MadLib {
 		String verb = sc.nextLine();
 
 		System.out.println("You go to a " + noun + " and see " + adjective + " " + nounPlural + ". ");
-		System.out.println("You decide to " + verb + " them... ");
-		System.out.println("You go to a " + noun + " and see " + adjective + " " + nounPlural + ". ");
-		System.out.println("You decide to " + verb + " them... ");
-		System.out.println("You go to a " + noun + " and see " + adjective + " " + nounPlural + ". ");
-		System.out.println("You decide to " + verb + " them... ");
+		System.out.println("It decides to " + verb + " them... ");
+		System.out.println("They were awakened by " + noun + " and go on a " + adjective + " " + nounPlural + ". ");
+		System.out.println("I've got to " + verb + " not to worry... ");
+		System.out.println(
+				"Thankfully, it was only looking for its " + noun + " and see " + adjective + " " + nounPlural + ". ");
+		System.out.println("You decide to " + verb + " and the it left.");
 	}
 }
